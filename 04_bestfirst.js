@@ -65,7 +65,7 @@ function inc() {
 
 function puzzle() {
 	var nodes = prompt("Ingrese texto inicial, texto final y heurstica (1 o 2) separados por un espacio")
-	if (nodes == null || nodes == '') nodes = 'halo hola 1'
+	if (nodes == null || nodes == '') nodes = '82453761_ 12345678_ 1'
 	nodes = nodes.split(' ')
 	return hills(nodes[0], nodes[1], nodes[2])
 }
